@@ -13,12 +13,12 @@ For further reference, please consider the following sections:
 
 ### Run
 * Start by entering this command on the command line:
-  ####psql postgres
+  #### psql postgres
 * Execute SQL commands listed in database-creation-population.sql from psql command line
 * Package application by typing the following command from the root directory of the project
-  ####mvn clean package
+  #### mvn clean package
 * Build the docker image
-  ####docker build -t codingexercise .
+  #### docker build -t codingexercise .
 * Run the docker image
   #### docker run -p 5000:8080 codingexercise
 
